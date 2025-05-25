@@ -65,7 +65,7 @@ To add next:
 - [x] Combined and saved core macroeconomic series to `data/combined_macro.csv`
 - [x] Notebook exploration of GDP structure complete
 - [x] Reusable plot script with auto-export to `outputs/`
-- [ ] Add tariff rate data and annotate major policy events
+- [x] Add tariff rate data and annotate major policy events
 - [ ] Begin visual alignment of macro response to trade policy shocks
 - [ ] Begin correlation and lag structure analysis
 
@@ -89,5 +89,4 @@ To add next:
 
 ---
 
-## 🗂 Directory Snapshot
 
