@@ -1,0 +1,27 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.env
+.env.*
+*.sqlite3
+*.log
+.DS_Store
+
+# === Jupyter + Notebook Junk ===
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# === VS Code ===
+.vscode/
+*.code-workspace
+
+# === Data & Outputs (optional) ===
+outputs/
+*.png
+data/*.csv
+
+# === OS files ===
+Thumbs.db
+desktop.ini
