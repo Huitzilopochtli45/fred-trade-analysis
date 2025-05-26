@@ -42,7 +42,7 @@ To explore how **GDP divergence** and **Net Export changes** are influenced by b
 
 ## 🔧 Step-by-Step Workflow
 
-### Step 1: Data Collection and Preprocessing
+### Step 1a: Data Collection and Preprocessing
 - Pull each series from FRED using `fredapi`
 - Convert daily/monthly to quarterly where needed
 - Calculate:
@@ -52,6 +52,29 @@ To explore how **GDP divergence** and **Net Export changes** are influenced by b
   - Deficit-to-GDP ratio
   - Real vs. Nominal PCE delta
 
+### Step 1b: Additional Series to Include in Macro Dataset
+## 📦 Additional Series to Include in Master Macro Table
+
+To extend the depth of analysis, we are adding both **demand-side** and **supply-side** indicators to our unified macroeconomic dataset. These series will be pulled from FRED, resampled to quarterly frequency where necessary, and aligned with GDP divergence and trade data.
+
+### 🔻 Demand-Side Indicators
+| Description                       | FRED Series ID |
+|-----------------------------------|----------------|
+| Unemployment Rate (U-3)           | `UNRATE`       |
+| Labor Force Participation Rate    | `CIVPART`      |
+| Personal Consumption Expenditures | `PCEC`         |
+| Real Disposable Income            | `DSPIC96`      |
+
+### 🔺 Supply-Side / Sectoral Indicators
+| Description                        | FRED Series ID |
+|------------------------------------|------------------|
+| Industrial Production Index        | `INDPRO`         |
+| Manufacturing Production           | `IPMAN`          |
+| Housing Starts (Total)             | `HOUST`          |
+| Building Permits                   | `PERMIT`         |
+| Capacity Utilization (Total)       | `TCU`            |
+
+Each of these will be added as a separate column in the final merged DataFrame for correlation analysis, regime segmentation, and visualization.
 ---
 
 ### Step 2: Merge With Master Divergence Table
