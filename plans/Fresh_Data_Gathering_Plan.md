@@ -1,4 +1,3 @@
-
 # 📘 Phase 1: Fresh Macroeconomic Data Gathering Plan
 
 This plan outlines a complete restart of the macroeconomic data pipeline, focused on clean, quarterly-aligned acquisition from reliable FRED sources. The goal is to create a consistent and comprehensive dataset for economic analysis from Q1 1972 to present.

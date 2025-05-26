@@ -1,5 +1,3 @@
-# Create detailed descriptions of each real economy metric in markdown format
-
 # 📘 Real Economy Series — Definitions & Methodology
 
 This document provides descriptions and interpretive guidance for the macroeconomic indicators saved under `/data/raw/real-economy`. These series capture the output and production activity across the U.S. economy, with a focus on both aggregate and sector-specific real indicators.
